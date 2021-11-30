@@ -7,7 +7,7 @@
 
 set -e
 
-BINDIR=${BINDIR:-./bin}
+BINDIR=${BINDIR:.local/share/bin}
 TAGARG=latest
 LOG_LEVEL=2
 EXECARGS=
